@@ -7,7 +7,7 @@ from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
-diabetes = pd.read_csv('./diabetes.csv')
+diabetes = pd.read_csv('./datasets/diabetes.csv')
 print(diabetes.head(5))
 print(diabetes.shape)
 

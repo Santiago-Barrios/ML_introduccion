@@ -7,8 +7,8 @@ from sklearn import tree
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 
-test_df = pd.read_csv('./titanic-test.csv')
-train_df = pd.read_csv('./titanic-train.csv')
+test_df = pd.read_csv('./datasets/titanic-test.csv')
+train_df = pd.read_csv('./datasets/titanic-train.csv')
 
 print(train_df.info())
 train_df.Sex.value_counts().plot(kind = 'bar', color = ['b', 'r'])

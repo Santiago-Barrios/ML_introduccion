@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-dataset = pd.read_csv('./salarios.csv')
+dataset = pd.read_csv('./datasets/salarios.csv')
 a = dataset.head(5)
 # print(a)
 
